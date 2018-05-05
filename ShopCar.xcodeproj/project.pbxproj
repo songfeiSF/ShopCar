@@ -13,6 +13,9 @@
 		BE7DC9FF209DAC8800B7D7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7DC9FE209DAC8800B7D7B6 /* Assets.xcassets */; };
 		BE7DCA02209DAC8800B7D7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7DCA00209DAC8800B7D7B6 /* LaunchScreen.storyboard */; };
 		BE7DCA05209DAC8800B7D7B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DCA04209DAC8800B7D7B6 /* main.m */; };
+		BE7DCA0D209DACF100B7D7B6 /* SuspensionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DCA0C209DACF100B7D7B6 /* SuspensionBtn.m */; };
+		BE7DCA10209DAD1200B7D7B6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DCA0F209DAD1200B7D7B6 /* UIView+Frame.m */; };
+		BE7DCA13209DAFAE00B7D7B6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DCA12209DAFAE00B7D7B6 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		BE7DCA01209DAC8800B7D7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE7DCA03209DAC8800B7D7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE7DCA04209DAC8800B7D7B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE7DCA0B209DACF000B7D7B6 /* SuspensionBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionBtn.h; sourceTree = "<group>"; };
+		BE7DCA0C209DACF100B7D7B6 /* SuspensionBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionBtn.m; sourceTree = "<group>"; };
+		BE7DCA0E209DAD1100B7D7B6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BE7DCA0F209DAD1200B7D7B6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BE7DCA11209DAFAE00B7D7B6 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BE7DCA12209DAFAE00B7D7B6 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,16 @@
 		BE7DC9F4209DAC8600B7D7B6 /* ShopCar */ = {
 			isa = PBXGroup;
 			children = (
+				BE7DCA0E209DAD1100B7D7B6 /* UIView+Frame.h */,
+				BE7DCA0F209DAD1200B7D7B6 /* UIView+Frame.m */,
+				BE7DCA0B209DACF000B7D7B6 /* SuspensionBtn.h */,
+				BE7DCA0C209DACF100B7D7B6 /* SuspensionBtn.m */,
 				BE7DC9F5209DAC8600B7D7B6 /* AppDelegate.h */,
 				BE7DC9F6209DAC8600B7D7B6 /* AppDelegate.m */,
 				BE7DC9F8209DAC8600B7D7B6 /* ViewController.h */,
 				BE7DC9F9209DAC8600B7D7B6 /* ViewController.m */,
+				BE7DCA11209DAFAE00B7D7B6 /* TableViewController.h */,
+				BE7DCA12209DAFAE00B7D7B6 /* TableViewController.m */,
 				BE7DC9FB209DAC8600B7D7B6 /* Main.storyboard */,
 				BE7DC9FE209DAC8800B7D7B6 /* Assets.xcassets */,
 				BE7DCA00209DAC8800B7D7B6 /* LaunchScreen.storyboard */,
@@ -142,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7DC9FA209DAC8600B7D7B6 /* ViewController.m in Sources */,
+				BE7DCA13209DAFAE00B7D7B6 /* TableViewController.m in Sources */,
+				BE7DCA0D209DACF100B7D7B6 /* SuspensionBtn.m in Sources */,
 				BE7DCA05209DAC8800B7D7B6 /* main.m in Sources */,
+				BE7DCA10209DAD1200B7D7B6 /* UIView+Frame.m in Sources */,
 				BE7DC9F7209DAC8600B7D7B6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

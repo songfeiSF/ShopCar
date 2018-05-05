@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
+#import "TableViewController.h"
 @interface ViewController ()
+
 
 @end
 
@@ -19,10 +21,16 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)click:(id)sender {
+    UIStoryboard *board = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
+
+    TableViewController *vc =  [board instantiateViewControllerWithIdentifier: @"TableViewController"];
+    
+    [self presentViewController:vc animated:true completion:nil];
 }
 
 
